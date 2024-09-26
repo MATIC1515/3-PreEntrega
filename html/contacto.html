@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM - Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="r34.html">Nissan Skyline</a></li>
+                <li><a href="mk4.html">Toyota Supra</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="contact-main">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h1>Contacto</h1>
+                <p>Si tienes alguna pregunta, comentario o sugerencia sobre los autos JDM más legendarios, estamos aquí para ayudarte. Completa el formulario y cuéntanos lo que piensas. ¡Nos encantaría escuchar tus recomendaciones o cualquier información adicional que quieras compartir!</p>
+            </div>
+
+            <div class="contact-form">
+                <form action="/enviar" method="POST">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Recomendaciones:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    
+    <footer>
+        <p class="link-ig">&copy; JDM</p>
+        <a class="link-ig" href="hhttps://www.instagram.com/jdm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Nuestro Instagram</a>
+    </footer>
+</body>
+</html>
