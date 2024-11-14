@@ -440,7 +440,7 @@ h2.galeria-title {
 }
 
 .TitleAni {
-  display: inline-block;
+text-align: center;
   margin: 0 0.5rem;
   animation: bounce;
   animation-duration: 2s;
